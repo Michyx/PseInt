@@ -40,8 +40,8 @@ Proceso EjercicioDefutbol
 			goles_contrarios_totales <- goles_contrarios_totales + gol_contrario;
 		FinSi
 		Si (gol==gol_contrario)
-			partidos_ganados <- partidos_ganados +1;
-			escribir "El equipo ",Equipo," empató este partido";
+			partidos_empatados <- partidos_empatados + 1 ;
+			escribir "El equipo ",Equipo," empatÃ³ este partido";
 			goles_totales <- goles_totales + gol;
 			goles_contrarios_totales <- goles_contrarios_totales + gol_contrario;
 		FinSi
